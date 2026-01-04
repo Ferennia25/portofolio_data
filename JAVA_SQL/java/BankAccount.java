@@ -1,19 +1,19 @@
 public class BankAccount {
-    private int account_number;
-    private String fullname;
+    private int accountNumber;
+    private String fullName;
     private double balance;
 
-    public BankAccount(int account_number, String fullname, double balance) {
-        this.account_number=account_number;
-        this.fullname=fullname;
+    public BankAccount(int accountNumber, String fullName, double balance) {
+        this.accountNumber=accountNumber;
+        this.fullName=fullName;
         this.balance=balance;
     }
 
     public int getAcc() {
-        return account_number;
+        return accountNumber;
     }
     public String getName() {
-        return fullname;
+        return fullName;
     }
     public double getBalance() {
         return balance;

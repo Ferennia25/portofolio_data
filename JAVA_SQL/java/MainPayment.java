@@ -5,7 +5,7 @@ public class MainPayment {
 
             service.deposit(10001, 100000);
             service.withdraw(10002, 100000);
-            service.transfer(10001, 10003, 1000000);
+            service.transfer(10001, 10003, 100000);
 
             System.out.println("Transaction success!");
 

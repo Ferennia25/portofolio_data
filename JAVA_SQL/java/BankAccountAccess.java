@@ -2,10 +2,10 @@ import java.sql.*; // importing Connection, PreparedStatement, ResultSet, SQLExc
 
 public class BankAccountAccess {
 
-    public BankAccount getAccount(int account_number) throws Exception {
+    public BankAccount getAccount(int accountNumber) throws Exception {
         Connection con = DataBaseConnection.connect();
         PreparedStatement ps = con.prepareStatement("SELECT * FROM bank_accounts WHERE account_number = ?");
-        ps.setInt(1, account_number);
+        ps.setInt(1, accountNumber);
 
         ResultSet rs = ps.executeQuery();
 
@@ -18,11 +18,11 @@ public class BankAccountAccess {
         return null;
 
     }
-    public void UpdateBalance(int account_number, double new_balance) throws Exception {
+    public void UpdateBalance(int accountNumber, double newBalance) throws Exception {
         Connection con = DataBaseConnection.connect();
         PreparedStatement ps = con.prepareStatement("UPDATE bank_accounts SET balance = ? WHERE account_number = ?");
-        ps.setDouble(1,new_balance);
-        ps.setInt(2, account_number);
+        ps.setDouble(1,newBalance);
+        ps.setInt(2, accountNumber);
         ps.executeUpdate();
 
 
