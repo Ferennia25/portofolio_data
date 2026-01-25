@@ -18,7 +18,7 @@ For connecting Java into MySQL Database, we use the DataBaseConnection class. As
 
 <img width="556" height="242" alt="Image" src="https://github.com/user-attachments/assets/389461db-538a-41fa-8bdd-9ba253c4b695" />
 
-Here is the summary of the logic classes I have made.
+Here are the summaries of the logic classes I have made.
 - BankAccount: define every bank account with accountNumber, fullName, and balance. This class contains methods: getAcc(), getName(), getBalance().
 - BankAccountAccess: get the bank account from MySQL database and update the balance of bank account in MySQL database. Both actions use a connector that was created in the DataBaseConnection class.
 - DataBaseConnection: connect our Java activities to MySQL database.
