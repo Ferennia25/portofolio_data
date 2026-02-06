@@ -43,6 +43,8 @@ After obtaining the best parameters, we use them all to model and train the data
 
 ### Step 5. PREDICTING RESULT OF NEW DATA USING MODEL
 After all, we can use the model on the new data to predict the fare price!
+
+
 <img width="271" height="197" alt="Image" src="https://github.com/user-attachments/assets/759b8ed4-4009-42a4-bc0a-a121a790084b" />
 
 
