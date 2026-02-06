@@ -38,6 +38,7 @@ Here, we identified the best parameters for data modeling, with an error of 3185
 <img width="304" height="196" alt="Image" src="https://github.com/user-attachments/assets/3e58cef6-0bea-4ad9-875d-5b78add90843" />
 
 After obtaining the best parameters, we use them all to model and train the data. Furthermore, we use the model on data testing to see how well the model performs. To know it, we have to see the metrics evaluation. Here are the errors rate we got:
+
 <img width="128" height="72" alt="Image" src="https://github.com/user-attachments/assets/804144fd-6c9c-477d-86ff-bbd92e49a98a" />
 
 ### Step 5. PREDICTING RESULT OF NEW DATA USING MODEL
