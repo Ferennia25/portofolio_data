@@ -11,25 +11,31 @@ From the output, we know the data is still raw and needs to be cleaned into the 
    
    <img width="425" height="371" alt="Image" src="https://github.com/user-attachments/assets/5c44fd54-c88b-4bea-8e4c-fc6bd851b363" />
 
-   User retention is an analysis of consumer behavior to determine whether they tend to return to buy a product again after the first purchase. Before getting the user retention, we need the year-month of every transaction, order count for each user, the cohort which is the minimum of year-month transaction of every user (first time purchasing), and the period number, which is the distance between first purchase period and the latest purchase period.
+User retention is an analysis of consumer behavior to determine whether they tend to return to buy a product again after the first purchase. Before getting the user retention, we need the year-month of every transaction, order count for each user, the cohort which is the minimum of year-month transaction of every user (first time purchasing), and the period number, which is the distance between first purchase period and the latest purchase period.
   
   <img width="374" height="261" alt="Image" src="https://github.com/user-attachments/assets/a2ea783b-e3f6-428e-ab3c-a07945d343e9" />
 
-  After that, we can create a pivot table to see the distribution of users across each cohort or first purchase period. The period_num indicates whether users return after the first purchase year-month (1). For instance, we can see from the output that 75 people made their first purchase in March 2023, then 18 people came back the next month, 24 the following month, and so on. 
+After that, we can create a pivot table to see the distribution of users across each cohort or first purchase period. The period_num indicates whether users return after the first purchase year-month (1). For instance, we can see from the output that 75 people made their first purchase in March 2023, then 18 people came back the next month, 24 the following month, and so on. 
 
 For user retention, we need to know the percentage of total users who returned and the total number of users in the first purchasing period. So, we have to divide all numbers by the total number of users in the first period. 
 
 <img width="124" height="293" alt="Image" src="https://github.com/user-attachments/assets/62b80c14-4573-471a-b6f6-5857c2accd67" />
+
+
 
 <img width="527" height="266" alt="Image" src="https://github.com/user-attachments/assets/37cbe1ae-24c3-4bd0-be94-7129543ce062" />
 
 This is the result of the user retention analysis after we divide all the numbers by the total number of users in the first purchasing period.
 But we need to convert all numbers to percentages with a nice display, so we should use seaborn and matplotlib to visualize the data well.
 
+
 <img width="1104" height="790" alt="Image" src="https://github.com/user-attachments/assets/71dbadbe-71d6-4667-a64e-e1fa94825560" />
+
 
 The heatmap shows the percentage of users returning. The numbers to the right represent the total number of users in subsequent months. The available data represents sales from January to July 2023. It means the data for users' first purchase in January would have 7 periods of percentages, and the data for July would have only one period of percentage.
  As we see there, April 2023 and June 2023 were the nicest months, with the highest percentage of users returning a month after first purchasing, while March 2023 had the lowest percentage. This can be analyzed using features or causes that could have led to these things happening, such as campaign marketing or trends that occurred at that time.
+
+
 
 ### 2. User Segmentation
 User segmentation produces segmentation of users, knowing how many users need to be prioritized and paid attention to, and can help us to know and analyze how many users are loyal and what efforts can be made to increase it.
