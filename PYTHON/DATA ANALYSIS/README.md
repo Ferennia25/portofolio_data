@@ -7,6 +7,7 @@ Here is the data info:
 
 From the output, we know the data is still raw and needs to be cleaned into the form we need, where every column has the proper data type. After data processing, we can finally do the data analysis of user retention and segmentation.
 
+
 ### 1. User Retention
    
    <img width="425" height="371" alt="Image" src="https://github.com/user-attachments/assets/5c44fd54-c88b-4bea-8e4c-fc6bd851b363" />
@@ -62,5 +63,5 @@ Here is the result. But we need to turn the table to become representable. So we
 This is the final visualization of user segmentation.
 
 <img width="703" height="381" alt="Image" src="https://github.com/user-attachments/assets/cd191b17-04a1-4d31-9f40-74bac38891b0" />
-
+<br />
 As we can see here, the table tells the descriptive of every segmentation of users. Unfortunately, Hibernating segment has 124 people or 32,6%, becoming the highest proportion of segmentation. Nevertheless, the good news is the three beneficial segments which are Champion, Loyal Customers, and Potential Loyalists, has 136 people or around 36% in total. These kinds of insights are absolutely needed in business development; analyze and think about how the chances in these areas can grow even more in the future.
